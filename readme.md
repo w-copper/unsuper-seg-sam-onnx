@@ -1,5 +1,13 @@
-todo:
+# SAM for Remote Sensing Applicaiton
 
-1. 实现对大遥感影像封装
-2. 测试对每个object进行简单分类的结果
-3. 测试引入vl模型后的结果
+convert SAM to onnx format.
+
+include SLIC to segment all the area
+
+TODO:
+
+* [X] onnx convert
+* [X] auto segmention without  torch
+* [ ] more accurate segmentation methods
+* [ ] for large tiff
+* [ ] for muliti-channel or multi-source images
