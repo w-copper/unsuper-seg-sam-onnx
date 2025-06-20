@@ -235,7 +235,7 @@ def sim_mask_us3d():
         # points_per_side=48,
     )
     # mask_generator = SamAutomaticMaskGenerator(sam)
-    img = cv2.imread("C:/Users/wangtong/Pictures/34.jpg")
+    img = cv2.imread("image/demo.jpg")
     masks = generate_mask(img, mask_generator)
     merged = merge_masks_np(masks)
     plt.imshow(merged, cmap='tab20')

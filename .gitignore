@@ -225,3 +225,6 @@ $RECYCLE.BIN/
 
 onnx_models/
 *.onnx
+onnx_models.7z.001
+onnx_models.7z.002
+onnx_models.7z.003
